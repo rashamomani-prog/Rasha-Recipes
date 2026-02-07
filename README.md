@@ -5,7 +5,7 @@ A Flutter application that allows users to browse and explore a variety of cooki
 ---
 
 ## 📌 Project Description
-The Cooking Recipes App helps users discover different food recipes easily.
+Rasha Recipes App helps users discover different food recipes easily.
 Each recipe includes ingredients, cooking steps, and preparation time. The app is designed using the MVC architecture to ensure clean code and separation of concerns.
 
 ---
