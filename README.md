@@ -70,6 +70,3 @@ lib/
 - MVC Architecture
 
 ---
-
-## 📌 Notes
-This project was created as part of a Flutter assignment to demonstrate clean architecture, proper file structure, and separation of concerns.
