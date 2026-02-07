@@ -53,6 +53,16 @@ Represents recipe categories (desserts, main dishes, drinks).
 Represents the app user for favorites or settings.
 
 ---
+##🚀 Features
+
+Browse recipes by category
+View recipe details
+Clean MVC structure
+
+##🛠 Technologies
+Flutter
+Dart
+MVC Architecture
 
 ## 🧠 Example Code
 
@@ -107,14 +117,3 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
-   ---
-##🚀 Features
-
-Browse recipes by category
-View recipe details
-Clean MVC structure
-
-##🛠 Technologies
-Flutter
-Dart
-MVC Architecture
