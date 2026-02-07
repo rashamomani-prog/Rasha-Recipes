@@ -52,7 +52,6 @@ Represents recipe categories (desserts, main dishes, drinks).
 ### User Model (Optional)
 Represents the app user for favorites or settings.
 
----
 ##🚀 Features
 
 Browse recipes by category
