@@ -55,6 +55,81 @@ lib/
 - **Category:** Represents recipe categories such as desserts or main dishes.
 - **User (Optional):** Represents the user for future features like favorites.
 
+- class Recipe {
+  final String id;
+  final String name;
+  final int cookingTime;
+  final List<String> ingredients;
+  final List<String> steps;
+
+  Recipe({
+    required this.id,
+    required this.name,
+    required this.cookingTime,
+    required this.ingredients,
+    required this.steps,
+  });
+
+  factory Recipe.fromJson(Map<String, dynamic> json) {
+    return Recipe(
+      id: json['id'],
+      name: json['name'],
+      cookingTime: json['cookingTime'],
+      ingredients: List<String>.from(json['ingredients']),
+      steps: List<String>.from(json['steps']),
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'name': name,
+      'cookingTime': cookingTime,
+      'ingredients': ingredients,
+      'steps': steps,
+    };
+  }
+}
+
+-class Category {
+  final String id;
+  final String title;
+
+  Category({
+    required this.id,
+    required this.title,
+  });
+}
+-import '../models/recipe_model.dart';
+
+class RecipeController {
+  final List<Recipe> recipes = [];
+
+  void addRecipe(Recipe recipe) {
+    recipes.add(recipe);
+  }
+
+  List<Recipe> getAllRecipes() {
+    return recipes;
+  }
+}
+
+-import 'package:flutter/material.dart';
+
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: const Text('Rasha Recipes')),
+      body: const Center(
+        child: Text('Recipes List Here'),
+      ),
+    );
+  }
+}
+
 ---
 
 ## 🚀 Features
