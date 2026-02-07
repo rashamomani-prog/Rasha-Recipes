@@ -52,16 +52,16 @@ Represents recipe categories (desserts, main dishes, drinks).
 ### User Model (Optional)
 Represents the app user for favorites or settings.
 
-##🚀 Features
+## 🚀 Features
+- Browse recipes by category
+- View detailed recipe information
+- Clean and scalable MVC structure
 
-Browse recipes by category
-View recipe details
-Clean MVC structure
 
-##🛠 Technologies
-Flutter
-Dart
-MVC Architecture
+## 🛠 Technologies Used
+- Flutter
+- Dart
+- MVC Architecture
 
 ## 🧠 Example Code
 
